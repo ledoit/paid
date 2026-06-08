@@ -137,38 +137,6 @@ export function BlockEditor({
               onClick={() =>
                 onUpdate(block.id, {
                   endMinutes: Math.min(WORK_END, block.startMinutes + d),
-        </label>
-        <label className="flex flex-col gap-1">
-          <span className="text-xs text-[var(--paid-muted)]">End</span>
-          <select
-            value={block.endMinutes}
-            onChange={(e) =>
-              onUpdate(block.id, { endMinutes: Number(e.target.value) })
-            }
-            className="editor-input rounded-md px-2 py-2 text-sm"
-          >
-            {timeOptions()
-              .filter((m) => m > block.startMinutes)
-              .map((m) => (
-                <option key={m} value={m}>
-                  {formatMinutes(m)}
-                </option>
-              ))}
-          </select>
-        </label>
-      </div>
-
-      <label className="flex flex-col gap-1">
-        <span className="text-xs text-[var(--paid-muted)]">Duration</span>
-        <div className="flex flex-wrap gap-1">
-          {durationOptions.map((d) => (
-            <button
-              key={d}
-              type="button"
-              className="duration-chip rounded px-2 py-1 text-xs"
-              onClick={() =>
-                onUpdate(block.id, {
-                  endMinutes: Math.min(WORK_END, block.startMinutes + d),
                 })
               }
             >

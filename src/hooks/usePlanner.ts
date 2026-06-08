@@ -146,25 +146,6 @@ export function usePlanner(selectedDate: string) {
     updateBlock,
     removeBlock,
     addQuickBlock,
-          colorIndex: prev.blocks.length % 5,
-        });
-        if (!next) return prev;
-        createdId = id;
-        return next;
-      });
-
-      return createdId;
-    },
-    [],
-  );
-
-  return {
-    plan,
-    updatePlan,
-    addBlock,
-    updateBlock,
-    removeBlock,
-    addQuickBlock,
     addBlockAtSlot,
     ready,
   };
