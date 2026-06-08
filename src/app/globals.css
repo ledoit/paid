@@ -1,26 +1,107 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --paid-bg: #0d1112;
+  --paid-fg: #f6f8f8;
+  --paid-surface: #1a2428;
+  --paid-bar: #0d1112;
+  --paid-panel: #1a2428;
+  --paid-border: #3e637e;
+  --paid-accent: #46dcf6;
+  --paid-accent-hover: #387ff0;
+  --paid-focus: #387ff0;
+  --paid-muted: #3e637e;
+  --paid-selection: #46dcf67a;
+  --paid-block-0: #46dcf6;
+  --paid-block-1: #387ff0;
+  --paid-block-2: #5ce0c0;
+  --paid-block-3: #f0a848;
+  --paid-block-4: #f06080;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: var(--paid-bg);
+  --color-foreground: var(--paid-fg);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: var(--paid-bg);
+  color: var(--paid-fg);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--paid-selection);
+}
+
+.theme-cycle-btn {
+  background: var(--paid-surface);
+  color: var(--paid-fg);
+  border: 1px solid var(--paid-border);
+}
+
+.theme-cycle-btn:hover {
+  background: color-mix(in srgb, var(--paid-accent) 12%, var(--paid-surface));
+  border-color: var(--paid-focus);
+}
+
+.theme-select,
+.editor-input {
+  background: var(--paid-bg);
+  color: var(--paid-fg);
+  border: 1px solid var(--paid-border);
+}
+
+.theme-select:focus,
+.editor-input:focus {
+  outline: none;
+  border-color: var(--paid-focus);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--paid-focus) 35%, transparent);
+}
+
+.quick-add-btn {
+  background: color-mix(in srgb, var(--paid-accent) 18%, var(--paid-surface));
+  color: var(--paid-fg);
+  border: 1px solid var(--paid-border);
+}
+
+.quick-add-btn:hover {
+  background: color-mix(in srgb, var(--paid-accent) 30%, var(--paid-surface));
+  border-color: var(--paid-accent);
+}
+
+.duration-chip {
+  background: var(--paid-bg);
+  color: var(--paid-muted);
+  border: 1px solid var(--paid-border);
+}
+
+.duration-chip:hover {
+  color: var(--paid-fg);
+  border-color: var(--paid-accent);
+}
+
+.time-grid {
+  scrollbar-color: var(--paid-border) transparent;
+}
+
+.time-block .block-accent {
+  flex-shrink: 0;
+}
+
+.time-grid::-webkit-scrollbar {
+  width: 8px;
+}
+
+.time-grid::-webkit-scrollbar-thumb {
+  background: var(--paid-border);
+  border-radius: 4px;
 }
