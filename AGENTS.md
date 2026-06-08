@@ -12,10 +12,10 @@ npm run vercel:prod
 
 ## GitHub / Vercel
 
-- Repo: `ledoit/paid` — bootstrap via `../../scripts/menhir-new-repo.sh Job/Paid`
+- Repo: `ledoit/paid` — hook-up via `~/work/scripts/work-new-repo.sh Menhir/Job/Paid`
 - Vercel project: `menhir-tech/paid` — production deploys via Git push (after `vercel git connect`) or `npm run vercel:prod` locally
 
-See `../../AGENTS.md` for Menhir repo bootstrap conventions.
+See `~/work/AGENTS.md` for the new-project agent flow.
 
 <!-- BEGIN:nextjs-agent-rules -->
 # This is NOT the Next.js you know
