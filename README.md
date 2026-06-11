@@ -2,7 +2,14 @@
 
 Personal morning work-day planner. Map time blocks when you arrive at work — stored locally in your browser.
 
-Themes are compiled from the shared **Rob Ross** genome — [`Menhir Holdings/Color/robross-palette-engine`](../../Color/robross-palette-engine/) (`github.com/ledoit/Rob-Ross`). Re-export IDE palettes there, then sync tokens into `src/lib/themes.ts`.
+Themes are compiled from the shared **Rob Ross** genome — [`Menhir Holdings/Color/Rob-Ross`](../../Color/Rob-Ross/) ([github.com/ledoit/Rob-Ross](https://github.com/ledoit/Rob-Ross)).
+
+After keeping IDE palettes there, sync into this app:
+
+```bash
+cd "../../Color/Rob-Ross"   # or robross-palette-engine until renamed
+python cli.py web sync paid
+```
 
 ## Local dev
 
