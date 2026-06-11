@@ -7,7 +7,7 @@ Themes are compiled from the shared **Rob Ross** genome — [`Menhir Holdings/Co
 After keeping IDE palettes there, sync into this app:
 
 ```bash
-cd "../../Color/Rob-Ross"   # or robross-palette-engine until renamed
+cd "../../Color/Rob-Ross"
 python cli.py web sync paid
 ```
 

@@ -1,4 +1,4 @@
-/** Rob Ross IDE palettes — auto-synced from Menhir Holdings/Color/Rob-Ross (github.com/ledoit/Rob-Ross) */
+/** Rob Ross IDE palettes — synced from Menhir Holdings/Color/Rob-Ross */
 
 export type ThemeId =
   | "dracula-punch"
