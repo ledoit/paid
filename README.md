@@ -2,7 +2,7 @@
 
 Personal morning work-day planner. Map time blocks when you arrive at work — stored locally in your browser.
 
-Themes are the same eleven **Rob Ross IDE palettes** from [`Menhir/Color/robross-palette-engine`](../Color/robross-palette-engine/vscode-themes/).
+Themes are compiled from the shared **Rob Ross** genome — [`Menhir Holdings/Color/robross-palette-engine`](../../Color/robross-palette-engine/) (`github.com/ledoit/Rob-Ross`). Re-export IDE palettes there, then sync tokens into `src/lib/themes.ts`.
 
 ## Local dev
 
