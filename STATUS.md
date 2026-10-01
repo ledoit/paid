@@ -2,7 +2,7 @@
 
 **As of:** 2026-09-14  
 **SoT:** [Linear — Paid](https://linear.app/menhir-holdings/project/paid-7842cd6c-e9a5-44a5-b5b3-1e96c175502d)  
-**Checkout:** `Menhir Holdings/Flow/Paid`
+**Checkout:** `personal/Stonehenge/Flow/Paid`
 
 ## Product
 
