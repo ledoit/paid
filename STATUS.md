@@ -1,24 +1,24 @@
 # Paid — Status
 
 **As of:** 2026-09-14  
-**SoT:** [Linear — Paid](https://linear.app/menhir-holdings/project/paid-7842cd6c-e9a5-44a5-b5b3-1e96c175502d)  
+**SoT:** Linear — Paid  
 **Checkout:** `personal/Stonehenge/Flow/Paid`
 
 ## Product
 
 **Today’s billed work** — sit down, see the now-line, name a block (who + hours), multiply by rate, see billed vs leftover. Corporate timesheet chrome (white / cool gray). Not a theming demo.
 
-**Bookmark:** [https://paid-menhir-holdings.vercel.app](https://paid-menhir-holdings.vercel.app)
+**Bookmark:** [https://paid.koalasalmon.com](https://paid.koalasalmon.com)
 
 ## Shipped
 
-- [MT-19](https://linear.app/menhir-holdings/issue/MT-19) — Solo planner happy path (localStorage save/reopen)
-- [MT-222](https://linear.app/menhir-holdings/issue/MT-222) — Corporate billable calendar chrome, kill worn paper
+- MT-19 — Solo planner happy path (localStorage save/reopen)
+- MT-222 — Corporate billable calendar chrome, kill worn paper
 
 ## Open
 
-- [MT-228](https://linear.app/menhir-holdings/issue/MT-228) — Timesheet tab favicon
-- [MT-214](https://linear.app/menhir-holdings/issue/MT-214) — Billed-day desk, kill Rob Ross themes (parent job; kept)
+- MT-228 — Timesheet tab favicon
+- MT-214 — Billed-day desk, kill Rob Ross themes (parent job; kept)
 
 ## Backlog
 

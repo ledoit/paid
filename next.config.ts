@@ -6,13 +6,7 @@ const nextConfig: NextConfig = {
       {
         source: "/:path*",
         has: [{ type: "host", value: "paid-eight.vercel.app" }],
-        destination: "https://paid.menhir-holdings.com/:path*",
-        permanent: true,
-      },
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "paid-menhir-tech.vercel.app" }],
-        destination: "https://paid.menhir-holdings.com/:path*",
+        destination: "https://paid.koalasalmon.com/:path*",
         permanent: true,
       },
     ];

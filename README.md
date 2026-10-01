@@ -13,7 +13,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Deploy
 
-Bookmark: [https://paid-menhir-holdings.vercel.app](https://paid-menhir-holdings.vercel.app)
+Bookmark: [https://paid.koalasalmon.com](https://paid.koalasalmon.com)
 
 Hobby cannot GitHub-deploy this private repo. Preview with:
 
@@ -25,4 +25,4 @@ Plans persist in `localStorage` only — no backend, no accounts.
 
 ## License
 
-All Rights Reserved © Menhir Holdings
+All Rights Reserved © Philippe Ledoit

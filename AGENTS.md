@@ -13,8 +13,8 @@ Preview deploys: `npx vercel@54 deploy --yes --scope menhir-holdings` (Hobby can
 
 ## GitHub / Vercel
 
-- Repo: `menhir-holdings/paid`
-- Bookmark: [https://paid-menhir-holdings.vercel.app](https://paid-menhir-holdings.vercel.app)
+- Repo: `ledoit/paid`
+- Bookmark: [https://paid.koalasalmon.com](https://paid.koalasalmon.com)
 
 <!-- BEGIN:nextjs-agent-rules -->
 # This is NOT the Next.js you know

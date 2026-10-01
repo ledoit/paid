@@ -1,19 +1,19 @@
 # TODO List
 
-Linear: [Paid project](https://linear.app/menhir-holdings/project/paid-7842cd6c-e9a5-44a5-b5b3-1e96c175502d).
+Linear: Paid project.
 
 ## Done
 
-- [MT-19](https://linear.app/menhir-holdings/issue/MT-19) — Solo planner happy path (localStorage save/reopen)
-- [MT-222](https://linear.app/menhir-holdings/issue/MT-222) — Corporate billable calendar chrome (kill worn paper)
+- MT-19 — Solo planner happy path (localStorage save/reopen)
+- MT-222 — Corporate billable calendar chrome (kill worn paper)
 
 ## Open
 
-- [MT-228](https://linear.app/menhir-holdings/issue/MT-228) — Timesheet tab favicon
-- [MT-214](https://linear.app/menhir-holdings/issue/MT-214) — Billed-day desk, kill Rob Ross themes
-- [MT-20](https://linear.app/menhir-holdings/issue/MT-20) — Share-link length budget
-- [MT-21](https://linear.app/menhir-holdings/issue/MT-21) — Print-minded layout
-- [MT-23](https://linear.app/menhir-holdings/issue/MT-23) — Guide notes field polish
+- MT-228 — Timesheet tab favicon
+- MT-214 — Billed-day desk, kill Rob Ross themes
+- MT-20 — Share-link length budget
+- MT-21 — Print-minded layout
+- MT-23 — Guide notes field polish
 
 ## Superseded
 

@@ -1,6 +1,6 @@
 # Paid — happy path checklist
 
-Manual verification for today’s billed-day desk ([MT-214](https://linear.app/menhir-holdings/issue/MT-214), chrome [MT-222](https://linear.app/menhir-holdings/issue/MT-222)).
+Manual verification for today’s billed-day desk (MT-214, chrome MT-222).
 
 | Step | Check |
 |------|-------|
